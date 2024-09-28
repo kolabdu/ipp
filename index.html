@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Ilorin Property Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">IPP<span>Hub</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Agents</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="search-bar">
+          <input type="text" id="searchField" placeholder="Search for a property">
+          <button class="cta-btn" id="searchBtn">Search</button>
+        </div>
+        <button class="menu-btn">Menu</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+        <h1 class="fnt2rem">Your Home, Your Future, Our Priority</h1>
+        <p class="mrg-bot">Elevate Your Home Search Experience To Where Community Meets Opportunities.</p>
+      <a href="#" class="cta-btn">Contact us</a>
+      <div class="cta-buttons">
+        <a href="#" class="cta-btn">Buy</a>
+        <a href="#" class="cta-btn">Rent</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="properties">
+    <div class="container">
+      <h2>Featured Properties</h2>
+      <div class="property-list" id="property-list">
+        <div class="property" data-location="new york">
+          <img src="house.jpg" alt="Property 1">
+          <h3>Modern Family House</h3>
+          <p>$300,000 • 3 Beds • 2 Baths • New York</p>
+          <a href="#" class="cta-btn">Contact us</a>
+        </div>
+        <div class="property" data-location="california">
+          <img src="house.jpg" alt="Property 2">
+          <h3>Luxury Villa</h3>
+          <p>$1,200,000 • 5 Beds • 4 Baths • California</p>
+          <a href="#" class="cta-btn">Contact us</a>
+        </div>
+        <div class="property" data-location="texas">
+          <img src="house.jpg" alt="Property 3">
+          <h3>Cozy Cottage</h3>
+          <p>$200,000 • 2 Beds • 1 Bath • Texas</p>
+          <a href="#" class="cta-btn">Contact us</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="property-list" id="property-list">
+          <div class="property" data-location="new york">
+            <img src="house.jpg" alt="Property 1">
+            <h3>Modern Family House</h3>
+            <p>$300,000 • 3 Beds • 2 Baths • New York</p>
+            <a href="#" class="cta-btn">Contact us</a>
+          </div>
+          <div class="property" data-location="california">
+            <img src="house.jpg" alt="Property 2">
+            <h3>Luxury Villa</h3>
+            <p>$1,200,000 • 5 Beds • 4 Baths • California</p>
+            <a href="#" class="cta-btn">Contact us</a>
+          </div>
+          <div class="property" data-location="texas">
+            <img src="house.jpg" alt="Property 3">
+            <h3>Cozy Cottage</h3>
+            <p>$200,000 • 2 Beds • 1 Bath • Texas</p>
+            <a href="#" class="cta-btn">Contac us</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-list">
+        <div class="testimonial">
+          <p>"RealEstateHub helped me find the perfect home for my family. Highly recommend!"</p>
+          <h4>– John Doe</h4>
+        </div>
+        <div class="testimonial">
+          <p>"I was able to sell my property at a great price with their expert agents!"</p>
+          <h4>– Sarah Lee</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Fast, reliable, and professional service. The best in real estate!"</p>
+          <h4>– Mark Smith</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="flex container">
+        <div class="footer-about">
+            <h5>About Stated</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+        </div>
+
+        <div class="footer-quick-links">
+            <h5>Quick Links</h5>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-subscribe">
+            <h5>Subscribe to our Newsletter</h5>
+            <div id="subscribe-container">
+                <input type="text" placeholder="Enter Email" />
+                <button class="right-rounded">Send</button>
+            </div>
+
+            <h5 class="follow-us">Follow Us</h5>
+            <ul>
+                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <small>
+        Copyright © 2024 All rights reserved
+    </small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
